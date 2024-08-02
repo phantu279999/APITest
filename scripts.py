@@ -30,6 +30,6 @@ def get_same_file_in_two_folder(path_folder_One="", path_folder_Two=""):
 if __name__ == '__main__':
 	list_same = get_same_file_in_two_folder(
 		path_folder_One=r"G:\Py\APITest",
-		path_folder_Two=r"G:\Vccorp\tinycd\api"
+		path_folder_Two=r"G:\tinycd\api"
 	)
 	print(list_same)
