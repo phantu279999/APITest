@@ -163,7 +163,7 @@ def show_serialpaso():
 	if common.check_valid_obj_show_serialpaso(_data) is False:
 		logger.info("SHOW SERIALPASO: Seal Info response false")
 		return jsonify({
-			"sucess": False,
+			"success": False,
 			"filename": "",
 			"message": "Seal Info response false",
 		}), 400
@@ -172,13 +172,13 @@ def show_serialpaso():
 	if content_file is None:
 		logger.info("SHOW SERIALPASO: Seal Info response false")
 		return jsonify({
-			"sucess": False,
+			"success": False,
 			"filename": "",
 			"message": "Seal Info response false",
 		}), 400
 	logger.info("SHOW SERIALPASO: Seal Info response successfully")
 	return jsonify({
-		"sucess": True,
+		"success": True,
 		"filename": "{}.html".format(_data['file']),
 		"content": content_file,
 		"message": "Seal Info response successfully",
