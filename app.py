@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 
 from db_connection.base_mysql import BaseMySQL
-from config import config_mysql, config_query, PAGE_SIZE
+from config import config_mysql, config_query, PAGE_SIZE, HOST, PORT
 from common import common
 from base_log import BaseLogger
 
@@ -186,4 +186,4 @@ def show_serialpaso():
 
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host=HOST, port=PORT)

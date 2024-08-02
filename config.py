@@ -1,3 +1,6 @@
+HOST = '127.0.0.1'
+PORT = 5000
+
 # default page size of accounts
 PAGE_SIZE = 10
 
