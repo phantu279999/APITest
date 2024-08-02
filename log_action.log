@@ -1,0 +1,21 @@
+2024-08-02 17:13:33,816 - log_action - INFO - GET ALL: Success
+2024-08-02 17:13:45,069 - log_action - INFO - GET ALL: Not found data in database
+2024-08-02 17:13:58,295 - log_action - INFO - GET: Success
+2024-08-02 17:14:26,433 - log_action - INFO - GET: You provide register_id is not found
+2024-08-02 17:15:08,426 - log_action - INFO - CREATE ACCOUNT: You provide field is invalid
+2024-08-02 17:15:25,187 - log_action - INFO - CREATE ACCOUNT: Success
+2024-08-02 17:15:43,391 - log_action - INFO - DELETE ACCOUNT: Success
+2024-08-02 17:15:59,785 - log_action - INFO - UPDATE ACCOUNT: You provide field is invalid
+2024-08-02 17:16:07,312 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:16:14,177 - log_action - INFO - SHOW SERIALPASO: Seal Info response successfully
+2024-08-02 17:17:05,392 - log_action - INFO - SHOW SERIALPASO: Seal Info response successfully
+2024-08-02 17:25:30,235 - log_action - INFO - SHOW SERIALPASO: Seal Info response successfully
+2024-08-02 17:25:33,401 - log_action - INFO - SHOW SERIALPASO: Seal Info response successfully
+2024-08-02 17:26:42,689 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:29:45,801 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:31:06,822 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:32:06,883 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:32:19,285 - log_action - INFO - UPDATE ACCOUNT: Please provide must to have three fields: login, password, phone
+2024-08-02 17:34:29,908 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:34:43,573 - log_action - INFO - UPDATE ACCOUNT: Success
+2024-08-02 17:43:47,735 - log_action - INFO - SHOW SERIALPASO: Seal Info response successfully
